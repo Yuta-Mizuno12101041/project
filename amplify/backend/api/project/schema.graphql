@@ -1,0 +1,9 @@
+type MemberInfo @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  MemCode: Int!
+  MemName: String
+  MemDiv: Int
+  StartDate: AWSDate
+  EndDate: AWSDate
+}
+ 
